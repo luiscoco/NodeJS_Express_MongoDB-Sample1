@@ -1,6 +1,16 @@
 # NodeJS_Express_MongoDB-Sample1
 
 ## How to run the MongoDB docker container
+Download the MongoDB image.
+```
+docker pull mongo
+```
+
+Then run the docker container:
+
+```
+docker run -d -p 27017:27017 --name mongodb mongo
+```
 
 ## How to run the application
 
